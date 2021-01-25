@@ -111,8 +111,8 @@ cw = str "  "
 
 theMap :: AttrMap
 theMap = attrMap V.defAttr
- [ (dinoAttr, V.white `on` V.white)
- , (barrierAttr, V.red `on` V.red)
+ [ (dinoAttr, V.black `on` V.black)
+ , (barrierAttr, V.black `on` V.black)
  -- , (emptyAttr, V.white `on` V.white) -- TODO: change/remove
  , (gameOverAttr, fg V.red `V.withStyle` V.bold)
  ]
